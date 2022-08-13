@@ -21,25 +21,28 @@ body {
     position: absolute;
     left: 149px;
     bottom: 149px;
+    transform-origin: 0 100%;
 }
 
 .minutes {
-    height: 110px;
+    height: 100px;
     width: 2px;
-    background-color: rgb(49,12,122);
+    background-color: rgb(92, 173, 39);
     position: absolute;
     left: 149px;
     bottom: 149px;
+    transform-origin: 0 100%;
 }
 
 .hours {
-     height: 90px;
+     height: 80px;
      width: 4px;
-     background-color: rgb(49,142,12);
+     background-color: rgb(218, 159, 252);
      position: absolute;
-     left: 149px;
-     bottom: 149px;
- }
+     left: 148px;
+     bottom: 148px;
+    transform-origin: 0 100%;
+}
 
 .center {
     height: 10px;
